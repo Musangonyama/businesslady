@@ -1,0 +1,56 @@
+<home.html>
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>home</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos/css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+<header>
+<a href="home.html" class="brand" data-aos="zoom-in" data-aos-duration="1000">THE PERFUME CO.</a>
+<div class="menu-btn"></div>
+<div class="navigation">
+<a href="home.html" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Home</a>
+<a href="about.html" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">About</a>
+<a href="https://www.theperfumecoafrica.com" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Partnership</a>
+<a href="mywork.html" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Products</a>
+<a href="contact.html" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Contact</a>
+</div>
+</header>
+<section class="main" id="main">
+<div class="content">
+    <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">Welcome to my Business page, YOUR NUMBER ONE PAGE<br><span>Nqobile Ngonyama</span></h2>
+ <div class="animated-text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
+    <h3>PERFUMES</h3>
+    <h3>CAR DIFFUSERS</h3>
+    <h3>COLLAGEN</h3>
+ </div>
+<a href="#" class="btn" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">Welcome to my Business</a>
+<div class="media-icons">
+    <a href="#" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1200"><i class="fab fa-facebook"></i></a>
+    <a href="#" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1300"><i class="fab fa-instagram"></i></a>
+    <a href="#" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1400"><i class="fab fa-twitter"></i></a>
+</div>
+
+</div>
+</section>
+<footer class="footer">
+<span class="footer-title">Nqobile's business page</span>
+<p>Copyright @2025 <a href="https://www.theperfumecoafrica.com">  THE PERFUME CO.</a>. All Rights Reserved</p>
+</footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init({offset : 0});
+const menuBtn = document.querySelector(".menu-btn");
+const navigation = document.querySelector(".navigation");
+menuBtn.addEventListener("click", () =>{
+menuBtn.classList.toggle("active");
+navigation.classList.toggle("active");});
+</script>
+</body>
+</section>
+</header>
+</html>
